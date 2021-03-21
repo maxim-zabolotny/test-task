@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export const server = {
-  url: 'http://localhost:4000',
+  url: '/api/products',
 }
 
 export const API = axios.create({

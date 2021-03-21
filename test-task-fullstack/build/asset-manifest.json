@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/testForWeAreTheFuture/static/js/main.5d2f19e1.chunk.js",
+    "main.js.map": "/testForWeAreTheFuture/static/js/main.5d2f19e1.chunk.js.map",
+    "runtime-main.js": "/testForWeAreTheFuture/static/js/runtime-main.dcd02576.js",
+    "runtime-main.js.map": "/testForWeAreTheFuture/static/js/runtime-main.dcd02576.js.map",
+    "static/js/2.7790e70c.chunk.js": "/testForWeAreTheFuture/static/js/2.7790e70c.chunk.js",
+    "static/js/2.7790e70c.chunk.js.map": "/testForWeAreTheFuture/static/js/2.7790e70c.chunk.js.map",
+    "index.html": "/testForWeAreTheFuture/index.html",
+    "precache-manifest.b5aaf765a8657945e8f4d173a8fa8c1a.js": "/testForWeAreTheFuture/precache-manifest.b5aaf765a8657945e8f4d173a8fa8c1a.js",
+    "service-worker.js": "/testForWeAreTheFuture/service-worker.js",
+    "static/js/2.7790e70c.chunk.js.LICENSE.txt": "/testForWeAreTheFuture/static/js/2.7790e70c.chunk.js.LICENSE.txt",
+    "static/media/hotdogLogo.png": "/testForWeAreTheFuture/static/media/hotdogLogo.92c993a0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dcd02576.js",
+    "static/js/2.7790e70c.chunk.js",
+    "static/js/main.5d2f19e1.chunk.js"
+  ]
+}
