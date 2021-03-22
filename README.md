@@ -13,9 +13,3 @@
 2. ```cd frontend```
 3. ```npm install```
 4. ```npm run start```
-
-
-## Run the tests
-1. Open a new bash shell
-2. ```cd app```
-3. ```npm run test_watch``` or ```yarn test_watch```
