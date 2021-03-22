@@ -1,6 +1,6 @@
 # Test Task
 
-###First make sure you have postgreSql installed and active
+### First make sure you have postgreSql installed and active
 
 ## Run the service
 1. Open a new bash shell
