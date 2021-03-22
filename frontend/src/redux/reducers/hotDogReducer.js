@@ -1,5 +1,5 @@
 import Type from '../types'
-import {createNewProduct, deleteProduct, update, updateProduct} from "../actions";
+import {createNewProduct, deleteProduct, updateProduct} from "../actions";
 
 const initialState = {
   data: null,
@@ -22,8 +22,8 @@ const reducer = (state = initialState, action) => {
         isUpdate: action.bool,
       }
 
-      case Type.SEND_UPDATE:
-        updateProduct(action.id, action.updateProduct)
+    case Type.SEND_UPDATE:
+      updateProduct(action.id, action.updateProduct)
       return {
         ...state,
         isEdit: null,
@@ -31,7 +31,7 @@ const reducer = (state = initialState, action) => {
       }
 
     case Type.DELETE:
-      deleteProduct(action.id);
+      deleteProduct(action.id)
       return {
         ...state,
         isEdit: null,
@@ -48,7 +48,7 @@ const reducer = (state = initialState, action) => {
         }),
       }
     case Type.CREATE:
-      createNewProduct(action.newObj);
+      createNewProduct(action.newObj)
       return {
         ...state,
         isUpdate: true,

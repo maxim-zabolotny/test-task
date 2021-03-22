@@ -8,7 +8,7 @@ export class Product extends Model<Product> {
     })
     img: string;
     @Column({
-        type: DataType.TEXT,
+        type: DataType.STRING,
         allowNull: false,
     })
     city: string;
